@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: fileconverter
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: MAX_FILE_SIZE_MB
+        value: "50"
+      - key: MAX_VIDEO_SIZE_MB
+        value: "50"
+      - key: DATABASE_PATH
+        value: "data/fileconverter.db"
+      - key: TEMP_DIRECTORY
+        value: "temp"
+      - key: CONVERSION_TIMEOUT_SECONDS
+        value: "300"
+      - key: FFMPEG_TIMEOUT_SECONDS
+        value: "300"

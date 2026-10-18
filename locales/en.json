@@ -1,0 +1,6 @@
+{
+  "welcome": "Welcome to FileConverter 👋\n\nSend me a file and I'll show you all available conversion formats.\n\nSupported:\n🖼 Images\n🎵 Audio\n🎬 Video\n📄 Documents\n📕 PDF\n📦 Archives",
+  "unsupported": "❌ This format is not supported.",
+  "too_large": "❌ The file is too large.",
+  "failed": "❌ Conversion failed. The file may be corrupted or incompatible."
+}

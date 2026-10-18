@@ -1,0 +1,9 @@
+aiogram>=3.13,<4
+python-dotenv>=1.0
+Pillow>=10.4
+pypdf>=5.0
+PyMuPDF>=1.24
+filetype>=1.2.0
+py7zr>=0.22
+
+aiohttp>=3.10,<4
